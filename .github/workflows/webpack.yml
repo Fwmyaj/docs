@@ -15,7 +15,7 @@ jobs:
         node-version: [12.x, 14.x, 16.x]
     
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b
 
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
